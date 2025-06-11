@@ -1,0 +1,18 @@
+{
+  "usernames": ["example_user"],
+  "email": {
+    "enabled": true,
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "address": "you@example.com",
+    "password": "${GMAIL_PASSWORD}",
+    "to": "you@example.com"
+  },
+  "twilio": {
+    "enabled": false,
+    "account_sid": "ACxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "auth_token": "${TWILIO_AUTH_TOKEN}",
+    "from_number": "+1234567890",
+    "to_number": "+1234567890"
+  }
+}
