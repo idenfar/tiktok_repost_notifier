@@ -14,7 +14,7 @@ This project checks one or more public TikTok profiles for new videos and sends 
 1. **Fork this repository** to your GitHub account. Forking creates a copy of the
    project under your username (look for it at `https://github.com/<your-user>/tiktok_repost_notifier`).
 2. **Edit `config.json`**
-   - A default `config.json` lives in the root of the repo—the top‑level folder
+   - A default `config.json` lives in the root of the repo—the top-level folder
      containing this README. Update it with the TikTok usernames you want to
      track and your notification details.
    - The password and auth token fields may contain placeholders such as
