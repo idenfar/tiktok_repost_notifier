@@ -1,5 +1,4 @@
 name: TikTok Notifier
-
 on:
   schedule:
     - cron: "*/15 * * * *"
