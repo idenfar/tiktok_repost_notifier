@@ -1,7 +1,7 @@
 name: TikTok Notifier
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: 
   workflow_dispatch:
 
 jobs:
